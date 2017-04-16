@@ -1,0 +1,3 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <drawable name="ic_seismic_menu">@drawable/ic_seismic_menu</drawable>
+</resources>
