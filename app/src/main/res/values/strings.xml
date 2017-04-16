@@ -1,0 +1,69 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Wildlife in Kenya</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">LOVE VIDEO</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
+
+    <string name="source_name">National Geographic Photo of the day</string>
+    <string name="source_description">The daily photo from the National Geographic Society</string>
+
+    <!-- preferences -->
+    <string name="prefs_title">Settings</string>
+    <string name="prefs_header_general">General</string>
+    <string name="prefs_header_about">About</string>
+
+    <string name="pref_cyclemode_key" translatable="false">pref_cyclemode</string>
+    <string name="pref_cyclemode_title">Random photo</string>
+    <string name="pref_cyclemode_summary__true">Shows a random photo of the day for a adjustable period of time.</string>
+    <string name="pref_cyclemode_summary__false">Shows always the most recent photo of the day.</string>
+
+    <string name="pref_intervalpicker_key" translatable="false">pref_intervalpicker</string>
+    <string name="pref_intervalpicker_title">Update interval</string>
+    <string name="pref_intervalpicker_defaultvalue" translatable="false">60</string>
+
+    <string name="pref_wifiswitch_key" translatable="false">pref_wifiswitch</string>
+    <string name="pref_wifiswitch_title">Only update on Wi-Fi</string>
+    <string name="pref_wifiswitch_summary">Updating on Wi-Fi helps to reduce mobile data usage.</string>
+
+    <string name="pref_about_key" translatable="false">pref_about</string>
+    <string name="pref_about_summary">
+        Version %1$s
+        \n© %2$d Maximilian Salomon
+   </string>
+
+    <!-- share artwork -->
+    <string name="share_artwork_message">My current Android wallpaper is \'%1$s\' - The photo of the day of %2$s on nationalgeographic.com. #Muzei #NationalGeographic\n\n%3$s</string>
+    <string name="share_artwork_title">Share this photo</string>
+    <string name="share_artwork_nothing_to_share">No photo to share.</string>
+
+    <!-- photo description -->
+    <string name="photo_desc_title"><![CDATA[About <b>%1$s</b>]]></string>
+    <string name="photo_desc_open">About this photo</string>
+    <string name="photo_desc_nothing_to_show">No photo description available. - Please try again.</string>
+
+    <style name="Theme.Muzei" parent="android:Theme.Holo">
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:actionBarStyle">@style/Widget.Muzei.ActionBar</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Muzei.Medium</item>
+        <item name="android:windowTranslucentNavigation" tools:targetApi="kitkat">true</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+    </style>
+
+    <style name="Widget.Muzei.ActionBar" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@null</item>
+        <item name="android:titleTextStyle">?android:textAppearanceMedium</item>
+        <item name="android:displayOptions">homeAsUp|showTitle|showHome</item>
+    </style>
+
+
+    <style name="TextAppearance.Muzei.Medium" parent="android:TextAppearance.Holo.Medium">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <color name="window_background">#111</color>
+
+</resources>
