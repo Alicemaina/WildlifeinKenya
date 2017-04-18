@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/alice/Documents/WildLifeInKenya/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9fd24ed22122cfe91a621852d86162d7224597c3">
+        <dex dex="/home/alice/Documents/WildLifeInKenya/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_85652c19c7da4aa9d4d5f70decc23e24d4e4c4a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alice/.android/build-cache/dc4b930c447733f704389aa3c7bb1943b6490292/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/home/alice/Documents/WildLifeInKenya/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c2e48901bc9863625d0c18f54f2b7dad2a626ffb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alice/Documents/WildLifeInKenya/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/home/alice/Documents/WildLifeInKenya/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7ce4700a2092147d495af9e622d6ccd30d03cbb4/classes.dex" />
+    </item>
+
+</items>
